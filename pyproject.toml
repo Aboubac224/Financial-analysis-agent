@@ -2,4 +2,11 @@
 name = "financial-analysis-agent"
 version = "0.1.0"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "pydantic-settings>=2.16.0",
+    "requests>=2.34.2",
+]
